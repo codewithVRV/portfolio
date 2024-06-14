@@ -1,11 +1,11 @@
 import { DiMongodb } from "react-icons/di";
-import { FaLinkedin, FaTelegram, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { ReactTyped } from "react-typed";
 
-import DevImage from "../../assets/developer.avif"
+import DevImage from "../../assets/developer.avif";
 const Home = () => {
     return (
         <>
@@ -32,9 +32,15 @@ const Home = () => {
                         <div className="">
                             <h1 className="mb-2 font-bold text-xl text-green-500">Social Media</h1>
                             <div className="flex space-x-6">
-                                <FaLinkedin className="text-xl  cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]" size={26}/>
+                                <a href="https://www.linkedin.com/in/vishnu-kumar-595a031b3/" target="_blank" rel="noopener noreferrer">
+                                    <FaLinkedin className="text-xl  cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]" size={26}/>
+                                </a>
+                                <a href="https://twitter.com/vishnumeerut" target="_blank" rel="noopener noreferrer">
                                 <FaSquareXTwitter className="text-xl cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]" size={26} />
+                                </a>
+                                <a href="https://www.youtube.com/@codingguruji26" target="_blank" rel="noopener noreferrer">
                                 <FaYoutube  className="text-xl  cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]" size={26}/>
+                                </a>
                             </div>
                         </div>
                         <div className="">
@@ -55,7 +61,7 @@ const Home = () => {
         </div>
             <hr />
         </>
-    )
-}
+    );
+};
 
 export default Home;

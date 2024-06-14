@@ -4,10 +4,10 @@ import { useState } from "react";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { Link } from "react-scroll";
 
-import Profile from "../../assets/vishnu.webp"
+import Profile from "../../assets/vishnu.webp";
 const Navbar = () => {
 
-    const [menu, setMenu] = useState(true)
+    const [menu, setMenu] = useState(true);
 
     const navItems = [
         {
@@ -30,7 +30,7 @@ const Navbar = () => {
             id: 1,
             text: "Contact",
         },
-    ]
+    ];
     return (
         <>
           <div className="max-w-screen-2xl container mx-auto px-3 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
@@ -94,6 +94,6 @@ const Navbar = () => {
           </div>
         </>
       );
-}
+};
 
 export default Navbar;

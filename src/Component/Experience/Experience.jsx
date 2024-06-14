@@ -1,12 +1,12 @@
-import skill1 from "../../assets/t1.webp"
-import skill2 from "../../assets/t2.png"
-import skill3 from "../../assets/t3.svg"
-import skill4 from "../../assets/t4.webp"
-import skill5 from "../../assets/t5.webp"
-import skill6 from "../../assets/t6.svg"
-import skill7 from "../../assets/t7.png"
-import skill8 from "../../assets/t8.png"
-import skill9 from "../../assets/t9.png"
+import skill1 from "../../assets/t1.webp";
+import skill2 from "../../assets/t2.png";
+import skill3 from "../../assets/t3.svg";
+import skill4 from "../../assets/t4.webp";
+import skill5 from "../../assets/t5.webp";
+import skill6 from "../../assets/t6.svg";
+import skill7 from "../../assets/t7.png";
+import skill8 from "../../assets/t8.png";
+import skill9 from "../../assets/t9.png";
 
 const Experience = () => {
     const cardItem = [
@@ -83,6 +83,6 @@ const Experience = () => {
           </div>
         </div>
       );
-}
+};
 
 export default Experience;
