@@ -6,7 +6,7 @@ function About() {
       className="max-w-screen-2xl  container mx-auto px-4 md:px-20 my-5"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5 text-center">About</h1>
+        <h1 className="text-5xl font-semibold mb-5 text-center">About</h1>
         <p>
           Hello, I am <span className="font-semibold">Vishnu</span>, a passionate Web developer with a keen eye for MERN
           Stack . With a background in IT, I strive to create impactful and
