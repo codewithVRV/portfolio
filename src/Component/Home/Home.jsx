@@ -6,6 +6,7 @@ import { SiExpress } from "react-icons/si";
 import { ReactTyped } from "react-typed";
 
 import DevImage from "../../assets/developer.avif";
+import DownloadResume from "../DownloadResume/DownloadResume";
 const Home = () => {
     return (
         <>
@@ -51,6 +52,12 @@ const Home = () => {
                                 <RiNextjsFill className="text-xl cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]"  size={26}/>
                             </div>
                         </div>
+                    </div>
+
+                    {/* resume button */}
+
+                    <div className=" h-40">
+                        <DownloadResume />
                     </div>
                 </div>
                 <div className="md:w-1/2 md:ml-48 md:mt-20 order-1">
