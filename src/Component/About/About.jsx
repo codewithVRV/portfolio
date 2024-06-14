@@ -3,67 +3,55 @@ function About() {
   return (
     <div
       name="About"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+      className="max-w-screen-2xl  container mx-auto px-4 md:px-20 my-5"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">About</h1>
+        <h1 className="text-3xl font-bold mb-5 text-center">About</h1>
         <p>
-          Hello, I am Vishnu, a passionate Web developer with a keen eye for MERN
+          Hello, I am <span className="font-semibold">Vishnu</span>, a passionate Web developer with a keen eye for MERN
           Stack . With a background in IT, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-green-600 font-semibold text-xl mb-2">
           Education & Training
         </h1>
         <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+          [ <span className="font-semibold">Bachelor degree</span> in computer Science ], [ Maharaja Agrasen Himalayan Garhwal University ], [2021] <br />
+          [ <span className="font-semibold">Master degree</span> in computer Science ] [ Manglayatan University ], [2024] <br />
+          [  <span className="font-semibold">MERN Stack</span> ], [ Relevel By Unacademy ],
+          [ 22/11/22 ------  25/02/24 ]
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-green-600 font-semibold text-xl mb-2">
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
+          Proficient in [ <span className="font-semibold">JavaScript, ReactJs, Redux </span> ] <br /> 
+          Good understanding of [ <span className="font-semibold">Tailwind and Bootstrap for UI</span> ] <br />
+          Good at problem-solving skills. Effective communicator and
+          collaborator.
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Professional Experience
+        <h1 className="text-green-600 font-semibold text-xl mb-2">
+          Hands-On Experience
         </h1>
         <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
+         As an aspiring developer with a strong foundation in the MERN stack. 
+         <span className="font-semibold"> I have successfully completed several projects that showcase my practical expertise and problem-solving abilities. </span>
+         These projects reflect my capability to design, develop, and deploy full-stack web applications. You can explore my work through the following links:
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Achievements & Awards
-        </h1>
-        <span>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Mission Statement
+        <h1 className="text-green-600 font-semibold text-xl mb-2">
+          What Motivates me.
         </h1>
         <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
+        I am a passionate and forward-thinking developer with a strong foundation in the MERN stack. 
+        <span className="font-semibold"> Eager to contribute my innovative mindset and problem-solving skills </span>
+         to a visionary team. <span className="font-semibold"> I am committed to continuous learning for professional growth. </span>
         </p>
       </div>
     </div>
