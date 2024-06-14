@@ -47,7 +47,7 @@ const Navbar = () => {
                 <ul className="hidden md:flex space-x-8">
                   {navItems.map(({ id, text }) => (
                     <li
-                      className="hover:scale-105 hover:bg-gray-300 py-2 px-4 rounded-lg duration-200 cursor-pointer"
+                      className="hover:scale-105 font-semibold hover:bg-gray-300 py-2 px-4 rounded-lg duration-200 cursor-pointer"
                       key={id}
                     >
                       <Link
@@ -73,7 +73,7 @@ const Navbar = () => {
                 <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
                   {navItems.map(({ id, text }) => (
                     <li
-                      className="hover:scale-105 duration-200 hover:bg-gray-300 py-2 px-4 rounded-lg cursor-pointer"
+                      className="hover:scale-105 duration-200 font-semibold hover:bg-gray-300 py-2 px-4 rounded-lg cursor-pointer"
                       key={id}
                     >
                       <Link

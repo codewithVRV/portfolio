@@ -13,11 +13,11 @@ const Home = () => {
             {/* <h1>Home </h1> */}
             <div className="flex flex-col md:flex-row">
                 <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-                    <span className="text-xl">Welcome In My Feed</span>
+                    <span className="text-xl">Thanks for your generosity.</span>
                     <div className="flex space-x-1 text-2xl md:text-4xl">
-                    <h1>Hello, I am a</h1>
+                    <h1 className="mt-4">Hello, I am a</h1>
                     <ReactTyped
-                        className="text-red-700 font-bold"
+                        className="text-red-700 font-bold mt-4"
                         strings={["Developer", "Programmer", "Coder"]}
                         typeSpeed={40}
                         backSpeed={50}
@@ -25,28 +25,26 @@ const Home = () => {
                     />
                     </div>
                     <br />
-                    <p className="text-sm md:text-lg text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda nihil asperiores officia eaque necessitatibus nisi doloremque soluta exercitationem esse mollitia totam culpa dolorem deleniti, quaerat velit ipsa itaque aut molestiae sint distinctio, voluptas cumque! Recusandae, aliquid quibusdam perspiciatis perferendis error beatae rerum alias totam minima esse odio magnam accusantium blanditiis.</p>
+                    <p className="text-sm md:text-lg text-justify">I am a results-driven Frontend Developer proficient in JavaScript, React, and Redux, with expertise in crafting responsive interfaces using Tailwind CSS.</p>
                     <br />
                     {/* Social Media icons */}
-                    <div className="flex flex-col items-center md:flex-row justify-between  space-y-6 md:space-y-0">
-                    <div>
-                        <h1 className="mb-2 font-bold text-xl">Avaialbe On</h1>
-                        <div className="flex space-x-6">
-                            <FaLinkedin className="text-xl cursor-pointer md:text-3xl hover:scale-125 duration-200 transition-all rounded-full border-[2px]" size={26}/>
-                            <FaSquareXTwitter className="text-xl cursor-pointer md:text-3xl hover:scale-125 duration-200 transition-all rounded-full border-[2px]" size={26} />
-                            <FaYoutube  className="text-xl  cursor-pointer md:text-3xl hover:scale-125 duration-200 transition-all rounded-full border-[2px]" size={26}/>
-                            <FaTelegram className="text-xl cursor-pointer md:text-3xl hover:scale-125 duration-200 transition-all rounded-full border-[2px]" size={26} />
+                    <div className="flex flex-col items-center md:flex-row justify-between  space-y-12 md:space-y-0">
+                        <div className="">
+                            <h1 className="mb-2 font-bold text-xl text-green-500">Social Media</h1>
+                            <div className="flex space-x-6">
+                                <FaLinkedin className="text-xl  cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]" size={26}/>
+                                <FaSquareXTwitter className="text-xl cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]" size={26} />
+                                <FaYoutube  className="text-xl  cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]" size={26}/>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <h1 className="mb-2 font-bold text-xl">Working On</h1>
-                        <div className="flex space-x-6">
-                            <SiExpress className="text-xl cursor-pointer md:text-3xl hover:scale-125 duration-200 transition-all rounded-full border-[2px]"  size={26}/>
-                            <DiMongodb  className="text-xl cursor-pointer md:text-3xl hover:scale-125 duration-200 transition-all rounded-full border-[2px]" size={26} />
-                            <RiNextjsFill className="text-xl cursor-pointer md:text-3xl hover:scale-125 duration-200 transition-all rounded-full border-[2px]"  size={26}/>
-                            <FaTelegram  size={26} />
+                        <div className="">
+                            <h1 className="mb-2 font-bold text-xl text-green-500">Working On</h1>
+                            <div className="flex space-x-6">
+                                <SiExpress className="text-xl cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]"  size={26}/>
+                                <DiMongodb  className="text-xl cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]" size={26} />
+                                <RiNextjsFill className="text-xl cursor-pointer md:text-3xl hover:scale-150 duration-200 transition-all rounded-full border-[2px]"  size={26}/>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 <div className="md:w-1/2 md:ml-48 md:mt-20 order-1">
