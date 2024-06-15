@@ -17,9 +17,9 @@ function About() {
           Education & Training
         </h1>
         <span>
-          [ <span className="font-semibold">Bachelor degree</span> in computer Science ], [ Maharaja Agrasen Himalayan Garhwal University ], [2021] <br />
-          [ <span className="font-semibold">Master degree</span> in computer Science ] [ Manglayatan University ], [2024] <br />
-          [  <span className="font-semibold">MERN Stack</span> ], [ Relevel By Unacademy ],
+           <span className="font-semibold">Bachelor degree</span> in computer Science,  Maharaja Agrasen Himalayan Garhwal University, [2021] <br />
+           <span className="font-semibold">Master degree</span> in computer Science,  Manglayatan University, [2024] <br />
+          <span className="font-semibold">MERN Stack</span>  Relevel By Unacademy, <br />
           [ 22/11/22 ------  25/02/24 ]
         </span>
         <br />
@@ -28,8 +28,8 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [ <span className="font-semibold">JavaScript, ReactJs, Redux </span> ] <br /> 
-          Good understanding of [ <span className="font-semibold">Tailwind and Bootstrap for UI</span> ] <br />
+          Proficient in <span className="font-semibold">JavaScript, ReactJs, Redux </span> <br /> 
+          Good understanding of <span className="font-semibold">Tailwind and Bootstrap for UI. </span> 
           Good at problem-solving skills. Effective communicator and
           collaborator.
         </span>

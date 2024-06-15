@@ -12,6 +12,6 @@ const DownloadResume = () => {
       return (
         <button className="bg-green-500 hover:bg-green-700 text-white py-2 rounded-xl w-full font-semibold text-2xl  mt-16" onClick={handleDownload}>Download Resume</button>
       );
-}
+};
 
 export default DownloadResume;

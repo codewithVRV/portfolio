@@ -1,10 +1,10 @@
 
-import img1 from "../../assets/p1.jpg"
-import img2 from "../../assets/p2.jpg"
-import img3 from "../../assets/p3.webp"
-import img4 from "../../assets/p4.jpg"
-import img5 from "../../assets/p5.png"
-import img6 from "../../assets/p6.png"
+import img1 from "../../assets/p1.jpg";
+import img2 from "../../assets/p2.jpg";
+import img3 from "../../assets/p3.webp";
+import img4 from "../../assets/p4.jpg";
+import img5 from "../../assets/p5.png";
+import img6 from "../../assets/p6.png";
 
 
 const Portfolio = () => {
@@ -97,6 +97,6 @@ const Portfolio = () => {
           </div>
         </div>
       );
-}
+};
 
 export default Portfolio;
